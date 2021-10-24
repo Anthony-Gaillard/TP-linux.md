@@ -7,24 +7,24 @@ Voici comment j'ai reussi a tue linux !
 
 **Commande 1 : Remplir le disque dur**
 sudo dd if=/dev/zero of=zeros bs=1M
-Cette commande permet de cree un fichier remplie de zero qui remplie le disque dur
+Cette commande permet de créé un fichier rempli de zéro qui remplit le disque dur
 
 **Commande 2 : Supprimer le Root**
 sudo rm -rf / —-no-preserve-root
-Grace à ce code je supprime tout les fichier y compris le root ce qui fait totalement planter la machine et crée comme un troup noir.
+Grâce à ce code je supprime tous les fichiers y compris le root ce qui fait totalement planter la machine et crée comme un troue noir.
 
 **Commande 3 : La bombe**
 :(){ :|: & };:
-Avec cette bombe nous allons crée une ligne qui va se repeter indefiniment ce qui va surcharger le system et provoquer le gel de l'ecran et le bloquage de la machine. 
+Avec cette bombe nous allons créés une ligne qui va se répéter indéfiniment ce qui va surcharger le système et provoquer le gel de l'écran et le blocage de la machine. 
 
 **Commande 4 : Le terminal**
 cd  /home/toto
 ls -a
 nano.bashrc
 sleep200000000000000000000000000000
-En suivent cette liste de commande nous allons bloqué le terminal c'est a dire que l'utilisateur devras attendre le temps indiqué apres sleep pour utiliser le terminal donc comme la dans l'exemple que j'ai mis, cela fait beaucoup de temps a attendre !
+En suivent cette liste de commande nous allons bloquer le terminal c'est a dire que l'utilisateur devra attendre le temps indiqué après sleep pour utiliser le terminal donc comme là dans l'exemple que j'ai mis, cela fait beaucoup de temps à attendre !
 
 **Commande 5 : les fichiers**
 sudo amount -l -f /
-Utiliser cette methode permet de supprimer toute l'arborecence de la racine qui de ce fait nous rend la machine inutilisable. 
+Utiliser cette méthode permet de supprimer toute l'arborescence de la racine qui de ce fait nous rend la machine inutilisable. 
 
