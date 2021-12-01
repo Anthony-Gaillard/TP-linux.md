@@ -232,7 +232,7 @@ C'est bon ? Ca tourne ? [**Go installer NextCloud maintenant !**](./web.md)
 Enter password: 
 ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0
 [antho@web ~]$ 
-
+ ```
 
 
 # II. Setup Web
