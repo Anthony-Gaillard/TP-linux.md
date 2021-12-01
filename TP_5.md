@@ -186,18 +186,11 @@ MariaDB [(none)]> CREATE USER 'nextcloud'@10.5.1.11 IDENTIFIED BY 'meow'
 
 ## 3. Test
 
-Bon, là il faut tester que la base sera utilisable par NextCloud.
-
-Concrètement il va faire quoi NextCloud vis-à-vis de la base MariaDB ?
-
-- se connecter sur le port où écoute MariaDB
-- la connexion viendra de `web.tp5.linux`
-- il se connectera en utilisant l'utilisateur `nextcloud`
-- il écrira/lira des données dans la base `nextcloud`
-
-Il faudrait donc qu'on teste ça, à la main, depuis la machine `web.tp5.linux`.
-
-Bah c'est parti ! Il nous faut juste un client pour nous connecter à la base depuis la ligne du commande : il existe une commande `mysql` pour ça.
+```bash
+[antho@web ~]$  mysql -h 10.5.1.12 -P 3306 -u nextcloud -p nextcloud
+Enter password: 
+ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0
+[antho@web ~]$ 
 
 🌞 **Installez sur la machine `web.tp5.linux` la commande `mysql`**
 
