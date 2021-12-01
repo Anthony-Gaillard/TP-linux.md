@@ -234,6 +234,7 @@ ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communic
 [antho@web ~]$ 
 
 
+
 # II. Setup Web
 
 Comme annoncé dans l'intro, on va se servir d'Apache dans le rôle de serveur Web dans ce TP5. Histoire de varier les plaisirs è_é
